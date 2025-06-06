@@ -2,7 +2,7 @@ name: Daily Terraform Deployment
 
 on:
   schedule:
-    - cron: "30 0 * * *" # Every day at 06:00 IST
+    #- cron: "30 0 * * *" # Every day at 06:00 IST
   workflow_dispatch:      # Allows manual trigger from GitHub UI
 
 jobs:
